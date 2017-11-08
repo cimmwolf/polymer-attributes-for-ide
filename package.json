@@ -4,5 +4,6 @@
   "description": "Helper for PHPStorm IDE",
   "author": "Denis Beliaev <cimmwolf@gmail.com>",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "repository": "https://github.com/cimmwolf/polymer-attributes-for-ide.git"
 }
