@@ -1,11 +1,25 @@
-<dom-module id="paper-checkbox">
+<dom-module id="paper-listbox">
     <script>
         Polymer({
             properties: {
+                activateEvent: String,
+                attrForItemTitle: String,
+                attrForSelected: String,
                 disabled: Boolean,
-                name: String,
-                required: Boolean,
-                value: String
+                fallbackSelection: String,
+                focusedItem: Object,
+                items: Array,
+                keyBindings: Object,
+                keyEventTarget: Object,
+                multi: Boolean,
+                selectable: String,
+                selected: String,
+                selectedAttribute: String,
+                selectedClass: String,
+                selectedItem: Object,
+                selectedItems: Array,
+                selectedValues: Array,
+                stopKeyboardEventPropagation: Boolean
             }
         })
     </script>
