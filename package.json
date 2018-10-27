@@ -1,6 +1,6 @@
 {
   "name": "polymer-attributes-for-ide",
-  "version": "1.4.1",
+  "version": "1.4.5",
   "description": "Helper for PHPStorm IDE",
   "author": "Denis Beliaev <cimmwolf@gmail.com>",
   "license": "MIT",
